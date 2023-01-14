@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.menu-option, .two-icon{
+.menu-bar, .menu-option, .two-icon{
     display: none;
     
     /* position: absolute; */
 }
-/* .menu-bar{
-    background: aqua;
-} */
 .menu-option > a {
     color: black;
     padding: 12px 16px;
@@ -28,6 +25,37 @@ nav > .right{
     display: flex;
     gap: 50px;
     justify-content: space-between;
+}
+/* header */
+.header-container{
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-container h1{
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.header-container p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+.header-description > button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: aliceblue;
+    border: none;
+    margin-bottom: 16px;
+
+}
+.header-img{
+    height: 440px;
+    width: 414px;
 }
 @media screen and (max-width: 576px) {
     *{
