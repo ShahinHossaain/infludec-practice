@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar, .two-icon{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px;
+}
+nav > .right{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(168, 197, 110);
+    }
+    nav{
+        margin: 35px 99px;
+    }
+    .menu-bar,  .two-icon{
+        display: flex;
+        gap: 5px;
+
+    }
+    nav > .right{
+        display: none;
+    }
+    .menu-bar > ul{
+        display: none;
+    }
+    .menu-bar:hover ul{
+        display: block;
+        margin-top: 20px;
+    }
+}
